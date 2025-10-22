@@ -6,7 +6,7 @@ This project is a Python program designed to interact with both MariaDB and Mong
 
 -   **Database Connectors**: Establishes connections with both MariaDB and MongoDB databases.
 -   **Data Conversion**: Converts SQL data to CSV format for data migration purposes.
--   **Data Insertion**: Inserts datasets into MariaDB and MongoDB, handling data loading and integration.
+-   **Data Insertion**: Inserts datasets into MariaDB and MongoDB handling data loading and integration.
 -   **Complex Queries**: Executes a variety of complex queries to extract meaningful information from the databases.
 -   **User Interface**: Provides a menu-driven interface for easy navigation and query execution.
 
