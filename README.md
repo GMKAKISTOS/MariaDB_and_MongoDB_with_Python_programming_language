@@ -1,4 +1,4 @@
-# MariaDB and MongoDB with python
+# MariaDB and MongoDB with Python
 
 This project is a Python program designed to interact with both MariaDB and MongoDB databases providing a user-friendly menu interface to answer various questions derived from the Yelp dataset. The application facilitates data manipulation, querying and integration between different database systems.
 
