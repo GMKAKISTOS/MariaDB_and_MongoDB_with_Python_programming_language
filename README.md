@@ -1,18 +1,54 @@
-I developed a Python program that utilizes two databases to answer a variety of questions all organized through a user-friendly menu interface. The dataset is on the website: **https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset**.
+The dataset is on the website: **https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset**
 
-Questions i answered:
+# MariaDB and MongoDB with python
 
-1. How many tips have four or more compliments?
-2. What are the names of the companies that have four or more compliments?
-3. For the above businesses (which have four or more compliments), what is the sum of all the compliments they have.
-4. What is the name and coordinates of the businesses that have a "Happy Hour" service?
-5. What are the names of the first 12 companies in checkin number?
-6. How many users have reviewed with more than four stars?
-7. How many stars do users give on average in their reviews?
-8. How many stars on average have been given by users who have at least one vote on useful, funny or cool?
-9. What are the names of the users who have given five stars and the review was this at least three times useful?
-10. How many friends do the users of question 9 have on average?
-11. Display the name, friends and how long they have been on Yelp of those who have given a 5 star review, before 2013, in operations in America.
-12. For those users who have more than 200 reviews, display the geographic location in which they are more active. More specifically, the first three locations based on latitude, longitude, without the decimal places. That is, if a user has reviewed a location (38.551126, -110.880452) and (38.999999, -110.000000), we consider that he has made two reviews on the site (38.000000, -110.000000), or more generally (38, -110).
-13. What are the names of the businesses that are open?
-14. What are the names of the companies that have more than 10 reviews?
+This project is a Python program designed to interact with both MariaDB and MongoDB databases providing a user-friendly menu interface to answer various questions derived from the Yelp dataset. The application facilitates data manipulation, querying and integration between different database systems.
+
+## Features
+
+-   **Database Connectors**: Establishes connections with both MariaDB and MongoDB databases.
+-   **Data Conversion**: Converts SQL data to CSV format for data migration purposes.
+-   **Data Insertion**: Inserts datasets into MariaDB and MongoDB, handling data loading and integration.
+-   **Complex Queries**: Executes a variety of complex queries to extract meaningful information from the databases.
+-   **User Interface**: Provides a menu-driven interface for easy navigation and query execution.
+
+## Table of Contents
+
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Dependencies](#dependencies)
+
+## Installation
+
+To set up the project, follow these steps:
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/panoschron97/MariaDB_and_MongoDB_with_Python_programming_language.git
+    cd MariaDB_and_MongoDB_with_Python_programming_language
+    ```
+
+2.  Install the required Python packages:
+
+    ```bash
+    pip install mariadb pymongo pandas python-dateutil
+    ```
+
+## Usage
+
+1.  Run the `myapp.py` script:
+
+    ```bash
+    python myapp.py
+    ```
+
+2.  Follow the menu options to interact with the databases and execute predefined queries.
+    Enter the number corresponding to the desired action and press Enter.
+
+## Dependencies
+
+-   **mariadb**: For connecting to and interacting with MariaDB databases.
+-   **pymongo**: For connecting to and interacting with MongoDB databases.
+-   **pandas**: For data manipulation and CSV file handling.
+-   **python-dateutil**: For parsing and working with date formats.
