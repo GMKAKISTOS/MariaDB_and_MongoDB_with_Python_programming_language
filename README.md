@@ -1,5 +1,3 @@
-The dataset is on the website: **https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset**
-
 # MariaDB and MongoDB with python
 
 This project is a Python program designed to interact with both MariaDB and MongoDB databases providing a user-friendly menu interface to answer various questions derived from the Yelp dataset. The application facilitates data manipulation, querying and integration between different database systems.
@@ -52,3 +50,4 @@ To set up the project, follow these steps:
 -   **pymongo**: For connecting to and interacting with MongoDB databases.
 -   **pandas**: For data manipulation and CSV file handling.
 -   **python-dateutil**: For parsing and working with date formats.
+-   The dataset is on the website: **https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset**
