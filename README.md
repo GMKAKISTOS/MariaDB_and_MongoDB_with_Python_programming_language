@@ -23,7 +23,7 @@ To set up the project, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/panoschron97/MariaDB_and_MongoDB_with_Python_programming_language.git
+    git clone https://github.com/GMKAKISTOS/MariaDB_and_MongoDB_with_Python_programming_language.git
     cd MariaDB_and_MongoDB_with_Python_programming_language
     ```
 
